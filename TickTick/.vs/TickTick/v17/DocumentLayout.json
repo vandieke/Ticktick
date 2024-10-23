@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\belee\\documents\\ticktick\\ticktick\\ticktick\\ticktick\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Level.cs",
+              "DocumentMoniker": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\TickTick\\Level.cs",
+              "RelativeDocumentMoniker": "TickTick\\Level.cs",
+              "ToolTip": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\TickTick\\Level.cs",
+              "RelativeToolTip": "TickTick\\Level.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:31:15.905Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

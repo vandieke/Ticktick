@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\TickTick\\TickTick.csproj": {}
+    "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\TickTick\\TickTick.csproj": {}
   },
   "projects": {
-    "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\Engine\\Engine.csproj": {
+    "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\Engine\\Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\Engine\\Engine.csproj",
+        "projectUniqueName": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\Engine\\Engine.csproj",
         "projectName": "Engine",
-        "projectPath": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\Engine\\Engine.csproj",
-        "packagesPath": "C:\\Users\\basvd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\Engine\\obj\\",
+        "projectPath": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\Engine\\Engine.csproj",
+        "packagesPath": "C:\\Users\\Belee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\Engine\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\basvd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Belee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,40 +67,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\TickTick\\TickTick.csproj": {
+    "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\TickTick\\TickTick.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\TickTick\\TickTick.csproj",
+        "projectUniqueName": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\TickTick\\TickTick.csproj",
         "projectName": "TickTick",
-        "projectPath": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\TickTick\\TickTick.csproj",
-        "packagesPath": "C:\\Users\\basvd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\TickTick\\obj\\",
+        "projectPath": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\TickTick\\TickTick.csproj",
+        "packagesPath": "C:\\Users\\Belee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\TickTick\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\basvd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Belee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,14 +98,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\Engine\\Engine.csproj": {
-                "projectPath": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\TickTick\\Engine\\Engine.csproj"
+              "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\Engine\\Engine.csproj": {
+                "projectPath": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\Engine\\Engine.csproj"
               }
             }
           }
@@ -150,30 +146,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.35, 6.0.35]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

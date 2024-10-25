@@ -13,6 +13,8 @@ namespace Engine
         public static void Follow(Vector2 target)
         {
             {
+                target = new Vector2(Math.Clamp(target.X, ExtendedGame.windowSize.X * 0.5f, ExtendedGame.worldSize.X - ExtendedGame.windowSize.X * 0.5f), 
+                    Math.Clamp(target.Y, 0, ExtendedGame.worldSize.Y - ExtendedGame.windowSize.Y * 0.5f));
                 //take current position of the target
                 var position = Matrix.CreateTranslation(-target.X, -target.Y, 0);
                 //take center of the screen

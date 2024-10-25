@@ -17,7 +17,7 @@ namespace Engine
         /// <summary>
         /// The width and height of the game world, in game units.
         /// </summary>
-        protected Point worldSize;
+        public static Point worldSize;
 
         /// <summary>
         /// The width and height of the window, in pixels.

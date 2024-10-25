@@ -160,6 +160,7 @@ class Player : AnimatedGameObject
             else
                 level.Timer.Multiplier = 1;
         }
+
         Camera.Follow(GlobalPosition);
     }
 

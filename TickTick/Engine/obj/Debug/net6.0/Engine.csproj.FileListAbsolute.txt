@@ -23,3 +23,16 @@ C:\Users\basvd\Desktop\School informatica\Jaar 1\Game programming\Ticktick GIT\T
 C:\Users\basvd\Desktop\School informatica\Jaar 1\Game programming\Ticktick GIT\Ticktick\TickTick\Engine\obj\Debug\net6.0\refint\Engine.dll
 C:\Users\basvd\Desktop\School informatica\Jaar 1\Game programming\Ticktick GIT\Ticktick\TickTick\Engine\obj\Debug\net6.0\Engine.pdb
 C:\Users\basvd\Desktop\School informatica\Jaar 1\Game programming\Ticktick GIT\Ticktick\TickTick\Engine\obj\Debug\net6.0\ref\Engine.dll
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\bin\Debug\net6.0\Engine.deps.json
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\bin\Debug\net6.0\Engine.dll
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\bin\Debug\net6.0\Engine.pdb
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\obj\Debug\net6.0\Engine.csproj.AssemblyReference.cache
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\obj\Debug\net6.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\obj\Debug\net6.0\Engine.AssemblyInfoInputs.cache
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\obj\Debug\net6.0\Engine.AssemblyInfo.cs
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\obj\Debug\net6.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\obj\Debug\net6.0\Engine.sourcelink.json
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\obj\Debug\net6.0\Engine.dll
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\obj\Debug\net6.0\refint\Engine.dll
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\obj\Debug\net6.0\Engine.pdb
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\Engine\obj\Debug\net6.0\ref\Engine.dll

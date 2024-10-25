@@ -22,7 +22,7 @@ namespace Engine
         /// <summary>
         /// The width and height of the window, in pixels.
         /// </summary>
-        protected Point windowSize;
+        public static Point windowSize;
 
         /// <summary>
         /// A matrix used for scaling the game world so that it fits inside the window.
@@ -118,8 +118,9 @@ namespace Engine
         {
             GraphicsDevice.Clear(Color.Black);
 
+
             // start drawing sprites, applying the scaling matrix
-            spriteBatch.Begin(SpriteSortMode.FrontToBack, null, null, null, null, null, spriteScale);
+            spriteBatch.Begin(SpriteSortMode.FrontToBack, null, null, null, null, null, spriteScale + Camera.Transform);
 
             // let the game world draw itself
             GameStateManager.Draw(gameTime, spriteBatch);

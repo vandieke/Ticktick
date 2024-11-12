@@ -10,6 +10,7 @@ namespace Engine
         // standard MonoGame objects for graphics and sprites
         protected GraphicsDeviceManager graphics;
         protected SpriteBatch spriteBatch;
+        public static SpriteBatch spriteBatchUI;
 
         // object for handling keyboard and mouse input
         protected InputHelper inputHelper;
@@ -71,6 +72,7 @@ namespace Engine
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            spriteBatchUI = new SpriteBatch(GraphicsDevice);
 
             // store a static reference to the AssetManager
             AssetManager = new AssetManager(Content);
@@ -121,11 +123,13 @@ namespace Engine
 
             // start drawing sprites, applying the scaling matrix
             spriteBatch.Begin(SpriteSortMode.FrontToBack, null, null, null, null, null, spriteScale + Camera.Transform);
+            spriteBatchUI.Begin(SpriteSortMode.FrontToBack, null, null, null, null, null, spriteScale);
 
             // let the game world draw itself
             GameStateManager.Draw(gameTime, spriteBatch);
 
             spriteBatch.End();
+            spriteBatchUI.End();
         }
 
         /// <summary>

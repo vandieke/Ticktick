@@ -1,4 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Reflection.Emit;
+using System.Threading;
+using Engine.UI;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -13,6 +16,8 @@ namespace Engine
         /// The child objects of this game object.
         /// </summary>
         List<GameObject> children;
+
+        public SpriteBatch spriteBatchUI;
 
         /// <summary>
         /// Creates a new GameObjectList with an empty list of children.
@@ -62,8 +67,43 @@ namespace Engine
             if (!Visible)
                 return;
 
+            // Drawing normal elements.
             foreach (GameObject obj in children)
-                obj.Draw(gameTime, spriteBatch);
+            {
+               
+                if (obj is SpriteGameObject && !(obj is TextGameObject))
+                {
+                    SpriteGameObject spriteGameobject = obj as SpriteGameObject;
+
+                    // Depth is higher or equal to 0.9f meaning we are dealing with a UI element.
+                    if (spriteGameobject.depth >= 0.9f) continue;
+
+                    obj.Draw(gameTime, spriteBatch);
+                }
+                else if (!(obj is TextGameObject))
+                {
+                    obj.Draw(gameTime, spriteBatch);
+                }
+            }
+
+            
+            // Drawing UI elements.
+            foreach (GameObject obj in children)
+            {
+                if (obj is TextGameObject) obj.Draw(gameTime, ExtendedGame.spriteBatchUI);
+            
+                if (obj is SpriteGameObject)
+                {                 
+                    SpriteGameObject spriteGameobject = obj as SpriteGameObject;
+
+                    // Depth is lower or equal to 0.9f so this must not be a UI element.
+                    if (spriteGameobject.depth < 0.9f) continue;
+
+                    obj.Draw(gameTime, ExtendedGame.spriteBatchUI);
+                }
+                
+            }
+            
         }
 
         /// <summary>

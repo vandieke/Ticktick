@@ -19,7 +19,7 @@ partial class Level : GameObjectList
 
     bool completionDetected;
 
-    // HIJ WERKT!!!
+
     public Level(int levelIndex, string filename)
     {
         LevelIndex = levelIndex;

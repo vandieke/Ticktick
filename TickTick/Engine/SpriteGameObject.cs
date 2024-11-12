@@ -31,7 +31,7 @@ namespace Engine
         /// The depth (between 0 and 1) at which this object should be drawn. 
         /// A larger value means that the object will be drawn on top.
         /// </summary>
-        protected float depth;
+        public float depth;
 
         /// <summary>
         /// Creates a new SpriteGameObject with a given sprite name.

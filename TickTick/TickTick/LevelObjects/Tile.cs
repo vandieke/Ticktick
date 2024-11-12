@@ -29,6 +29,7 @@ class Tile : GameObject
         else if (type == Type.Platform)
             image = new SpriteGameObject("Sprites/Tiles/spr_platform" + surfaceExtension, TickTick.Depth_LevelTiles);
 
+
         // if there is an image, make it a child of this object
         if (image != null)
             image.Parent = this;

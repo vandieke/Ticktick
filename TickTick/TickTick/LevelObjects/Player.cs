@@ -261,6 +261,8 @@ class Player : AnimatedGameObject
                 }
             }
         }
+
+
     }
 
     Rectangle BoundingBoxForCollisions

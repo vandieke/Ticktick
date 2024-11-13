@@ -66,6 +66,28 @@ class Rocket : AnimatedGameObject
             level.Player.Die();
         */
 
+        if (level.Player.CanCollideWithObjects && HasPixelPreciseCollision(level.Player))
+        {
+            if (level.Player.GlobalPosition.Y <= GlobalPosition.Y)
+            {
+                Reset();
+                level.Player.Jump();
+                Debug.WriteLine("from above");
+
+            }
+            else
+            {
+
+                // we did not.
+                level.Player.Die();
+                Debug.WriteLine("from under");
+            }
+
+            Debug.WriteLine($" Player pos: {level.Player.GlobalPosition.Y}");
+            Debug.WriteLine($" Rocket pos: {GlobalPosition.Y}");
+        }
+
+
 
         #region Poging 1, werkte niet
         /*

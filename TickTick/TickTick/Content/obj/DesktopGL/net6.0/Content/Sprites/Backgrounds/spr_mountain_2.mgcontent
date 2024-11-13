@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/basvd/Desktop/School informatica/Jaar 1/Game programming/Ticktick GIT/Ticktick/TickTick/TickTick/Content/Sprites/Backgrounds/spr_mountain_2.png</SourceFile>
-  <SourceTime>2022-10-10T09:27:08+02:00</SourceTime>
-  <DestFile>C:/Users/basvd/Desktop/School informatica/Jaar 1/Game programming/Ticktick GIT/Ticktick/TickTick/TickTick/Content/bin/DesktopGL/Content/Sprites/Backgrounds/spr_mountain_2.xnb</DestFile>
-  <DestTime>2024-11-12T18:07:42.1585461+01:00</DestTime>
+  <SourceFile>C:/Users/Belee/Documents/TickTick/Ticktick/TickTick/TickTick/Content/Sprites/Backgrounds/spr_mountain_2.png</SourceFile>
+  <SourceTime>2024-10-23T11:29:28.0112837+02:00</SourceTime>
+  <DestFile>C:/Users/Belee/Documents/TickTick/Ticktick/TickTick/TickTick/Content/bin/DesktopGL/Content/Sprites/Backgrounds/spr_mountain_2.xnb</DestFile>
+  <DestTime>2024-11-13T13:06:31.235764+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

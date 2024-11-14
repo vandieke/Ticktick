@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 
-partial class Level : GameObjectList
+public partial class Level : GameObjectList
 {
     public const int TileWidth = 72;
     public const int TileHeight = 55;
@@ -11,7 +11,7 @@ partial class Level : GameObjectList
     Tile[,] tiles;
     List<WaterDrop> waterDrops;
 
-    public Player Player { get; private set; }
+    internal Player Player { get; private set; }
     public int LevelIndex { get; private set; }
 
     SpriteGameObject goal;
@@ -19,7 +19,7 @@ partial class Level : GameObjectList
 
     bool completionDetected;
 
-
+    public static GameObjectList allBackgroundPieces;
     public Level(int levelIndex, string filename)
     {
         LevelIndex = levelIndex;
@@ -44,7 +44,7 @@ partial class Level : GameObjectList
         {
             SpriteGameObject mountain = new SpriteGameObject(
                 "Sprites/Backgrounds/spr_mountain_" + (ExtendedGame.Random.Next(2) + 1),
-                TickTick.Depth_Background + 0.01f * (float)ExtendedGame.Random.NextDouble());
+                TickTick.Depth_Background + 0.01f * i); 
 
             mountain.LocalPosition = new Vector2(mountain.Width * (i-1) * 0.4f, 
                 BoundingBox.Height - mountain.Height);
@@ -55,6 +55,10 @@ partial class Level : GameObjectList
         // add clouds
         for (int i = 0; i < 6; i++)
             backgrounds.AddChild(new Cloud(this));
+
+
+        allBackgroundPieces = backgrounds;
+
     }
 
     public Rectangle BoundingBox
@@ -67,7 +71,7 @@ partial class Level : GameObjectList
         }
     }
 
-    public BombTimer Timer { get { return timer; } }
+    internal BombTimer Timer { get { return timer; } }
 
     public Vector2 GetCellPosition(int x, int y)
     {
@@ -79,7 +83,7 @@ partial class Level : GameObjectList
         return new Point((int)Math.Floor(position.X / TileWidth), (int)Math.Floor(position.Y / TileHeight));
     }
 
-    public Tile.Type GetTileType(int x, int y)
+    internal Tile.Type GetTileType(int x, int y)
     {
         // If the x-coordinate is out of range, treat the coordinates as a wall tile.
         // This will prevent the character from walking outside the level.
@@ -94,7 +98,7 @@ partial class Level : GameObjectList
         return tiles[x, y].TileType;
     }
 
-    public Tile.SurfaceType GetSurfaceType(int x, int y)
+    internal Tile.SurfaceType GetSurfaceType(int x, int y)
     {
         // If the tile with these coordinates doesn't exist, return the normal surface type.
         if (x < 0 || x >= tiles.GetLength(0) || y < 0 || y >= tiles.GetLength(1))

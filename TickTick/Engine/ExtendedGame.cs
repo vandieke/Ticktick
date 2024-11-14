@@ -2,6 +2,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
+using System.Collections.Generic;
+
 
 namespace Engine
 {
@@ -11,6 +13,8 @@ namespace Engine
         protected GraphicsDeviceManager graphics;
         protected SpriteBatch spriteBatch;
         public static SpriteBatch spriteBatchUI;
+        public static List<ParrallaxSpriteHolder> allParrallaxSpriteBatches = new List<ParrallaxSpriteHolder>();
+
 
         // object for handling keyboard and mouse input
         protected InputHelper inputHelper;
@@ -47,6 +51,7 @@ namespace Engine
 
         public static string ContentRootDirectory { get { return "Content"; } }
 
+        
         /// <summary>
         /// Creates a new ExtendedGame object.
         /// </summary>
@@ -73,6 +78,12 @@ namespace Engine
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             spriteBatchUI = new SpriteBatch(GraphicsDevice);
+            //spriteBatchParallax = new SpriteBatch(GraphicsDevice); 
+            for(int i = 0; i < 4; i++)
+            {
+                allParrallaxSpriteBatches.Add(new ParrallaxSpriteHolder(new SpriteBatch(GraphicsDevice), i * 0.01f));
+            }
+           
 
             // store a static reference to the AssetManager
             AssetManager = new AssetManager(Content);
@@ -120,14 +131,24 @@ namespace Engine
         {
             GraphicsDevice.Clear(Color.Black);
 
-
-            // start drawing sprites, applying the scaling matrix
+ 
             spriteBatch.Begin(SpriteSortMode.FrontToBack, null, null, null, null, null, spriteScale + Camera.Transform);
             spriteBatchUI.Begin(SpriteSortMode.FrontToBack, null, null, null, null, null, spriteScale);
+            foreach(var spritebatch in allParrallaxSpriteBatches)
+            {
+                Matrix parallaxTransform = Camera.Transform;
+                parallaxTransform.Translation *= spritebatch.depth * 8f; 
+                parallaxTransform += spriteScale;
+                spritebatch.spriteBatch.Begin(SpriteSortMode.FrontToBack, null, null, null, null, null, parallaxTransform);
+            }
 
             // let the game world draw itself
             GameStateManager.Draw(gameTime, spriteBatch);
 
+            foreach (var spritebatch in allParrallaxSpriteBatches)
+            {
+                spritebatch.spriteBatch.End();
+            }
             spriteBatch.End();
             spriteBatchUI.End();
         }
@@ -214,5 +235,20 @@ namespace Engine
             float screenToWorldScale = worldSize.X / (float)GraphicsDevice.Viewport.Width;
             return (screenPosition - viewportTopLeft) * screenToWorldScale;
         }
+
+
+        
+        
+    }
+
+    public struct ParrallaxSpriteHolder
+    {
+        public ParrallaxSpriteHolder(SpriteBatch spriteBatch, float depth)
+        {
+            this.spriteBatch = spriteBatch;
+            this.depth = depth;
+        }
+        public SpriteBatch spriteBatch;
+        public float depth;
     }
 }

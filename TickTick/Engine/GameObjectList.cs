@@ -77,7 +77,15 @@ namespace Engine
 
                     // Depth is higher or equal to 0.9f meaning we are dealing with a UI element.
                     if (spriteGameobject.depth >= 0.9f) continue;
+                    
+                    // Adding parralax if the object is below 0.2f, because in this case we are dealing with a background object.
+                    if(spriteGameobject.depth <= 0.2f)
+                    {
+                        obj.Draw(gameTime, ExtendedGame.allParrallaxSpriteBatches.Find(spritebatch => spritebatch.depth == spriteGameobject.depth).spriteBatch); 
+                        continue;
+                    }
 
+                    // Drawing normal object
                     obj.Draw(gameTime, spriteBatch);
                 }
                 else if (!(obj is TextGameObject))

@@ -1,22 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\",
+  "WorkspaceRootPath": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\belee\\documents\\ticktick\\ticktick\\ticktick\\ticktick\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\basvd\\desktop\\school informatica\\jaar 1\\game programming\\ticktick git\\ticktick\\ticktick\\ticktick\\levelobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\basvd\\desktop\\school informatica\\jaar 1\\game programming\\ticktick git\\ticktick\\ticktick\\ticktick\\levelobjects\\energy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelobjects\\energy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\basvd\\desktop\\school informatica\\jaar 1\\game programming\\ticktick git\\ticktick\\ticktick\\ticktick\\content\\levels\\level1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\content\\levels\\level1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\basvd\\desktop\\school informatica\\jaar 1\\game programming\\ticktick git\\ticktick\\ticktick\\ticktick\\levelloading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelloading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\basvd\\desktop\\school informatica\\jaar 1\\game programming\\ticktick git\\ticktick\\ticktick\\ticktick\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\belee\\documents\\ticktick\\ticktick\\ticktick\\engine\\gameobjectlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\basvd\\desktop\\school informatica\\jaar 1\\game programming\\ticktick git\\ticktick\\ticktick\\ticktick\\levelobjects\\feather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelobjects\\feather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\basvd\\desktop\\school informatica\\jaar 1\\game programming\\ticktick git\\ticktick\\ticktick\\ticktick\\levelobjects\\waterdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelobjects\\waterdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\basvd\\desktop\\school informatica\\jaar 1\\game programming\\ticktick git\\ticktick\\ticktick\\engine\\gameobjectlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|solutionrelative:engine\\gameobjectlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\belee\\documents\\ticktick\\ticktick\\ticktick\\engine\\extendedgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\basvd\\desktop\\school informatica\\jaar 1\\game programming\\ticktick git\\ticktick\\ticktick\\engine\\extendedgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|solutionrelative:engine\\extendedgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\belee\\documents\\ticktick\\ticktick\\ticktick\\ticktick\\levelobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +46,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Energy.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\LevelObjects\\Energy.cs",
+              "RelativeDocumentMoniker": "TickTick\\LevelObjects\\Energy.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\LevelObjects\\Energy.cs",
+              "RelativeToolTip": "TickTick\\LevelObjects\\Energy.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:25:52.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "level1.txt",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\Content\\Levels\\level1.txt",
+              "RelativeDocumentMoniker": "TickTick\\Content\\Levels\\level1.txt",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\Content\\Levels\\level1.txt",
+              "RelativeToolTip": "TickTick\\Content\\Levels\\level1.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-14T21:40:08.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LevelLoading.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\LevelLoading.cs",
+              "RelativeDocumentMoniker": "TickTick\\LevelLoading.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\LevelLoading.cs",
+              "RelativeToolTip": "TickTick\\LevelLoading.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAwwGsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:31:03.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WaterDrop.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\LevelObjects\\WaterDrop.cs",
+              "RelativeDocumentMoniker": "TickTick\\LevelObjects\\WaterDrop.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\LevelObjects\\WaterDrop.cs",
+              "RelativeToolTip": "TickTick\\LevelObjects\\WaterDrop.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:05:06.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Feather.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\LevelObjects\\Feather.cs",
+              "RelativeDocumentMoniker": "TickTick\\LevelObjects\\Feather.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\LevelObjects\\Feather.cs",
+              "RelativeToolTip": "TickTick\\LevelObjects\\Feather.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:04:58.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\TickTick\\LevelObjects\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\LevelObjects\\Player.cs",
               "RelativeDocumentMoniker": "TickTick\\LevelObjects\\Player.cs",
-              "ToolTip": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\TickTick\\LevelObjects\\Player.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\LevelObjects\\Player.cs",
               "RelativeToolTip": "TickTick\\LevelObjects\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAUwL8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T15:49:57.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Level.cs",
-              "DocumentMoniker": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\TickTick\\Level.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\Level.cs",
               "RelativeDocumentMoniker": "TickTick\\Level.cs",
-              "ToolTip": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\TickTick\\Level.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\TickTick\\Level.cs",
               "RelativeToolTip": "TickTick\\Level.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAIwC4AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T15:45:05.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "ExtendedGame.cs",
-              "DocumentMoniker": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\Engine\\ExtendedGame.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\Engine\\ExtendedGame.cs",
               "RelativeDocumentMoniker": "Engine\\ExtendedGame.cs",
-              "ToolTip": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\Engine\\ExtendedGame.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\Engine\\ExtendedGame.cs",
               "RelativeToolTip": "Engine\\ExtendedGame.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T15:17:58.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T15:17:58.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "GameObjectList.cs",
-              "DocumentMoniker": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\Engine\\GameObjectList.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\Engine\\GameObjectList.cs",
               "RelativeDocumentMoniker": "Engine\\GameObjectList.cs",
-              "ToolTip": "C:\\Users\\Belee\\Documents\\TickTick\\Ticktick\\TickTick\\Engine\\GameObjectList.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\School informatica\\Jaar 1\\Game programming\\Ticktick GIT\\Ticktick\\TickTick\\Engine\\GameObjectList.cs",
               "RelativeToolTip": "Engine\\GameObjectList.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAgwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T15:15:15.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T15:15:15.876Z"
             }
           ]
         }

@@ -5,14 +5,18 @@ using System;
 
 class Player : AnimatedGameObject
 {
-    const float walkingSpeed = 400; // Standard walking speed, in game units per second.
+    private float walkingSpeed = 400; // Standard walking speed, in game units per second.
     const float jumpSpeed = 900; // Lift-off speed when the character jumps.
     const float gravity = 2300; // Strength of the gravity force that pulls the character down.
     const float maxFallSpeed = 1200; // The maximum vertical speed at which the character can fall.
-    
+
     const float iceFriction = 1; // Friction factor that determines how slippery the ice is; closer to 0 means more slippery.
     const float normalFriction = 20; // Friction factor that determines how slippery a normal surface is.
     const float airFriction = 5; // Friction factor that determines how much (horizontal) air resistance there is.
+
+    private float maxSpeedBoostDuration = 6f;
+    private float speedBoostTimer;
+    private bool hasSpeedBoost = false;
 
     bool facingLeft; // Whether or not the character is currently looking to the left.
 
@@ -22,7 +26,7 @@ class Player : AnimatedGameObject
 
     Level level;
     Vector2 startPosition;
-    
+
     bool isCelebrating; // Whether or not the player is celebrating a level victory.
     bool isExploding;
 
@@ -161,7 +165,30 @@ class Player : AnimatedGameObject
                 level.Timer.Multiplier = 1;
         }
 
+        if (hasSpeedBoost)
+        {
+            speedBoostTimer -= (float)gameTime.ElapsedGameTime.TotalSeconds;
+            if (speedBoostTimer < 0)
+            {
+                walkingSpeed /= 1.5f;
+                hasSpeedBoost = false;
+            }
+        }
+
         Camera.Follow(GlobalPosition);
+    }
+
+    public void SpeedBoost()
+    {
+        hasSpeedBoost = true;
+        speedBoostTimer = maxSpeedBoostDuration;
+        walkingSpeed *= 1.5f;
+        
+    }
+
+    public void Dash()
+    {
+        velocity.X += 3000;
     }
 
     void ApplyFriction(GameTime gameTime)

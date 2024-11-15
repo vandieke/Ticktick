@@ -60,6 +60,9 @@ partial class Level : GameObjectList
         // initialize the list of water drops
         waterDrops = new List<WaterDrop>();
 
+        //initialize new list of feathers;
+        feathers = new List<Feather>();
+
         // prepare the grid arrays
         tiles = new Tile[gridWidth, gridHeight];
 
@@ -101,6 +104,10 @@ partial class Level : GameObjectList
             LoadRocketEnemy(x, y);
         else if (symbol == 'T')
             LoadTurtleEnemy(x, y);
+        else if (symbol == 'E')
+            LoadEnergy(x, y);
+        else if (symbol == 'F')
+            LoadFeather(x, y);
         else if (symbol == 'S')
             LoadSparkyEnemy(x, y);
         else if (symbol == 'A' || symbol == 'B' || symbol == 'C')
@@ -156,6 +163,19 @@ partial class Level : GameObjectList
         waterDrops.Add(w);
     }
 
+    void LoadFeather(int x, int y)
+    {
+        //create the feather
+        Feather f = new Feather(this, GetCellPosition(x, y));
+        AddChild(f);    
+    }
+
+    void LoadEnergy(int x, int y)
+    {
+        //create the energy
+        Energy e = new Energy(this, GetCellPosition(x, y));
+        AddChild(e);
+    }
     void LoadRocketEnemy(int x, int y)
     {
         Rocket r = new Rocket(this, GetCellPosition(x, y), x != 0);

@@ -10,6 +10,8 @@ public partial class Level : GameObjectList
 
     Tile[,] tiles;
     List<WaterDrop> waterDrops;
+    List<Feather> feathers;
+    List<Energy> energies;
 
     internal Player Player { get; private set; }
     public int LevelIndex { get; private set; }

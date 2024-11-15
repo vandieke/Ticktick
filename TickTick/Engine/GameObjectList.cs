@@ -67,6 +67,19 @@ namespace Engine
             if (!Visible)
                 return;
 
+
+
+
+            if (ExtendedGame.GameStateManager.currentGameState != ExtendedGame.GameStateManager.GetGameState("playing"))
+            {
+                foreach (GameObject obj in children)
+                {
+                    obj.Draw(gameTime, ExtendedGame.spriteBatchUI);
+                }
+                return;
+            }
+
+
             // Drawing normal elements.
             foreach (GameObject obj in children)
             {

@@ -276,3 +276,6 @@ C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\TickTick\obj\Debug\net6.0\re
 C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\TickTick\obj\Debug\net6.0\TickTick.pdb
 C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\TickTick\obj\Debug\net6.0\TickTick.genruntimeconfig.cache
 C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\TickTick\obj\Debug\net6.0\ref\TickTick.dll
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\LevelObjects\spr_energy.xnb
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\LevelObjects\spr_feather.xnb
+C:\Users\Belee\Documents\TickTick\Ticktick\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\LevelObjects\spr_featherV2.xnb

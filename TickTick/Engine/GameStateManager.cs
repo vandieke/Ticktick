@@ -14,7 +14,7 @@ namespace Engine
         Dictionary<string, GameState> gameStates;
 
         // A reference to the game state that is currently active.
-        GameState currentGameState;
+        public GameState currentGameState;
 
         /// <summary>
         /// Creates a new GameStateManager object.

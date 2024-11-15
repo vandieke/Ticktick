@@ -10,7 +10,7 @@ class Feather : SpriteGameObject
     Vector2 startPosition;
     protected float bounce;
 
-    public Feather(Level level, Vector2 startPosition) : base("Sprites/LevelObjects/spr_water", TickTick.Depth_LevelObjects)
+    public Feather(Level level, Vector2 startPosition) : base("Sprites/LevelObjects/spr_featherV2", TickTick.Depth_LevelObjects)
     {
         //moet nog een andere sprite ingesteld worden maar oke.
         this.level = level;

@@ -10,7 +10,7 @@ class Energy : SpriteGameObject
     Vector2 startPosition;
     protected float bounce;
 
-    public Energy(Level level, Vector2 startPosition) : base("Sprites/LevelObjects/spr_water", TickTick.Depth_LevelObjects)
+    public Energy(Level level, Vector2 startPosition) : base("Sprites/LevelObjects/spr_energy", TickTick.Depth_LevelObjects)
     {
         //moet nog een andere sprite ingesteld worden maar oke.
         this.level = level;
